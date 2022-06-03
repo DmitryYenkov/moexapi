@@ -77,7 +77,13 @@ etc.
 
 * iss.get_board_hist_date(date, engine, market, board)
 
+# Note
 
+Maybe some of functions require MOEX user ID and password, also proxy may be added, so it may look like this:
+
+```python
+iss = MicexISSClient(user='username', password='userpassword', proxy='proxy.url')
+```
 
   
 
